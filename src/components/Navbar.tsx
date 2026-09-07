@@ -1,3 +1,8 @@
+/**
+ * @file Navbar.tsx
+ * @description Sticky editorial glassmorphic navigation header with mobile drawer.
+ * @author Shreepurnaa V
+ */
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Sparkles } from 'lucide-react';
 
