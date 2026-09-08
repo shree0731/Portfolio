@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
   ];
 
   return (
-    <header
+    <header role="banner" aria-label="Main Navigation"
       style={{
         position: 'fixed',
         top: 0,
