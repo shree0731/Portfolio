@@ -97,7 +97,7 @@ const Navbar: React.FC = () => {
           {/* Prominent Golden Pill Action Button */}
           <a
             href="#contact"
-            className="btn-gold"
+            className="btn-gold focus-visible:ring-2 focus-visible:ring-amber-400"
             style={{
               padding: '0.55rem 1.4rem',
               fontSize: '0.9rem',
