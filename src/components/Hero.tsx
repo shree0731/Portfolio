@@ -1,3 +1,7 @@
+/**
+ * @file Hero.tsx
+ * @description Monumental forest green hero section with layered typography and developer manifesto.
+ */
 import React from 'react';
 import { ArrowDown, Github, Linkedin, Mail, Shield, Sparkles, Terminal } from 'lucide-react';
 
