@@ -1,0 +1,48 @@
+/* Editorial Retro-Modern Stylesheet */
+:root {
+  --forest-dark: #142a1e;
+  --forest-base: #1c3d2b;
+  --forest-light: #26543b;
+  --forest-border: #2d5e43;
+  --gold-amber: #f4a21f;
+  --gold-light: #ffc266;
+  --gold-hover: #df8e11;
+  --cream-bg: #faf5ed;
+  --cream-surface: #fdfbf7;
+  --cream-card: #f3ece0;
+  --cream-dark: #e8ded0;
+  --terracotta: #d4633b;
+  --terracotta-dark: #b84e27;
+  --charcoal-dark: #151816;
+  --charcoal-card: #1f2421;
+  --charcoal-text: #171b18;
+  --muted-stone: #6b7570;
+  --border-cream: #e2d6c3;
+  --border-dark: #2c332e;
+
+  --font-display: 'DM Serif Display', 'Playfair Display', Georgia, serif;
+  --font-editorial: 'Fraunces', 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Space Grotesk', monospace;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  background-color: var(--cream-bg);
+  color: var(--charcoal-text);
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--cream-bg);
+  color: var(--charcoal-text);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
