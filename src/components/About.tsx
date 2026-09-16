@@ -1,3 +1,7 @@
+/**
+ * @file About.tsx
+ * @description Editorial about section highlighting education, passions, and core contacts.
+ */
 import React from 'react';
 import { Linkedin, Github, Mail, MapPin, ExternalLink, ShieldCheck, Sparkles, Cpu, Award } from 'lucide-react';
 
