@@ -46,3 +46,18 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
 }
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--cream-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--forest-light);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-amber);
+}
