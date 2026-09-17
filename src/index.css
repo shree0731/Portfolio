@@ -89,3 +89,30 @@ body {
   -webkit-text-stroke: 1.5px rgba(21, 24, 22, 0.25);
   user-select: none;
 }
+
+/* Layout Utilities */
+.site-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.section-container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.section-padding {
+  padding: 5rem 0;
+}
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 3.5rem 0;
+  }
+}
+
+.bg-forest { background-color: var(--forest-base); color: var(--cream-bg); }
+.bg-forest-dark { background-color: var(--forest-dark); color: var(--cream-bg); }
+.bg-cream { background-color: var(--cream-bg); color: var(--charcoal-text); }
+.bg-cream-card { background-color: var(--cream-card); }
+.bg-gold { background-color: var(--gold-amber); color: var(--charcoal-dark); }
+.bg-charcoal { background-color: var(--charcoal-dark); color: var(--cream-bg); }
