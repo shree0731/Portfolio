@@ -116,3 +116,91 @@ body {
 .bg-cream-card { background-color: var(--cream-card); }
 .bg-gold { background-color: var(--gold-amber); color: var(--charcoal-dark); }
 .bg-charcoal { background-color: var(--charcoal-dark); color: var(--cream-bg); }
+
+/* Buttons */
+.btn-gold {
+  background-color: var(--gold-amber);
+  color: #121413;
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 0.7rem 1.6rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(244, 162, 31, 0.35);
+}
+.btn-gold:hover {
+  background-color: var(--gold-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(244, 162, 31, 0.45);
+}
+
+.btn-forest {
+  background-color: var(--forest-base);
+  color: var(--cream-bg);
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0.7rem 1.6rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.25s ease;
+  border: 1px solid var(--forest-light);
+  cursor: pointer;
+}
+.btn-forest:hover {
+  background-color: var(--forest-light);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(28, 61, 43, 0.3);
+}
+
+.btn-outline-cream {
+  background: transparent;
+  color: var(--cream-bg);
+  border: 1.5px solid var(--cream-bg);
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0.7rem 1.6rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+.btn-outline-cream:hover {
+  background: var(--cream-bg);
+  color: var(--forest-base);
+  transform: translateY(-2px);
+}
+
+.btn-pill-action {
+  background: linear-gradient(135deg, #e85a2a, #d4471f);
+  color: white;
+  padding: 0.65rem 1.4rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(212, 71, 31, 0.3);
+  transition: all 0.25s ease;
+}
+.btn-pill-action:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(212, 71, 31, 0.45);
+  background: linear-gradient(135deg, #d4471f, #bf3912);
+}
