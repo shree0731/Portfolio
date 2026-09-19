@@ -95,7 +95,7 @@ const About: React.FC = () => {
                 href="https://linkedin.com/in/shreepurnaa"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-pill-action"
+                className="btn-pill-action focus-visible:outline-none focus-visible:ring-2"
               >
                 <Linkedin size={18} />
                 <span>linkedin.com/in/shreepurnaa</span>
