@@ -1,3 +1,7 @@
+/**
+ * @file Education.tsx
+ * @description Academic background timeline and collegiate technical events.
+ */
 import React from 'react';
 import { GraduationCap, Award, BookOpen } from 'lucide-react';
 
