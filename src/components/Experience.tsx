@@ -1,3 +1,7 @@
+/**
+ * @file Experience.tsx
+ * @description High-contrast golden experience card with project roles and skill tags.
+ */
 import React from 'react';
 import { Briefcase, Code, Sparkles, CheckCircle2 } from 'lucide-react';
 
