@@ -117,7 +117,7 @@ const Experience: React.FC = () => {
       </div>
 
       {/* Pill Tags at bottom of yellow card (like reference) */}
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', paddingTop: '1.25rem', borderTop: '1.5px solid rgba(20,42,30,0.15)' }}>
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.55rem', paddingTop: '1.25rem', borderTop: '1.5px solid rgba(20,42,30,0.15)' }}>
         {tags.map((tag) => (
           <span
             key={tag}
