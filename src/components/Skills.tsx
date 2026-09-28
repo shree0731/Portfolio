@@ -1,3 +1,7 @@
+/**
+ * @file Skills.tsx
+ * @description Technical skills, language fluencies, and illustrated personal interests.
+ */
 import React, { useState } from 'react';
 import {
   Code2,
