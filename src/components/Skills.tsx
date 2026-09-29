@@ -210,7 +210,7 @@ const Skills: React.FC = () => {
             { id: 'web', label: 'Web & Web3' },
             { id: 'tools', label: 'Databases & Tools' },
           ].map((tab) => (
-            <button
+            <button role="tab"
               key={tab.id}
               onClick={() => setActiveTab(tab.id as any)}
               style={{
