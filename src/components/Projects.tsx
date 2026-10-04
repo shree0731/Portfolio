@@ -1,3 +1,7 @@
+/**
+ * @file Projects.tsx
+ * @description Curated engineering projects showcase with interactive blueprint architecture modals.
+ */
 import React, { useState } from 'react';
 import { Github, ExternalLink, Sparkles, FolderGit2, X, Shield, Brain, Vote, ScanLine } from 'lucide-react';
 
