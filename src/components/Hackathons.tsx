@@ -1,3 +1,7 @@
+/**
+ * @file Hackathons.tsx
+ * @description Competitive achievements, technical hackathons, and CTF events showcase.
+ */
 import React from 'react';
 import { Trophy, Award, Medal, Sparkles, CheckCircle } from 'lucide-react';
 
