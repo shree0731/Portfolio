@@ -131,7 +131,7 @@ const Hackathons: React.FC = () => {
                       color: 'var(--gold-amber)',
                     }}
                   >
-                    <Trophy size={22} />
+                    <Trophy aria-hidden="true" size={22} />
                   </div>
 
                   <span
