@@ -1,3 +1,7 @@
+/**
+ * @file Resume.tsx
+ * @description Certificate-style credentials showcase with PDF download and clipboard actions.
+ */
 import React, { useState } from 'react';
 import { Download, FileText, ExternalLink, Check, Copy, Sparkles, Shield, Award } from 'lucide-react';
 
