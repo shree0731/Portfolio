@@ -1,6 +1,6 @@
 /**
  * @file Resume.tsx
- * @description Certificate-style credentials showcase with PDF download and clipboard actions.
+ * @description Certificate-style credentials showcase with PDF download="Shreepurnaa_V_Resume.pdf" and clipboard actions.
  */
 import React, { useState } from 'react';
 import { Download, FileText, ExternalLink, Check, Copy, Sparkles, Shield, Award } from 'lucide-react';
