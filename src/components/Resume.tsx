@@ -232,7 +232,7 @@ Contact: kvgeethashree12@gmail.com | GitHub: github.com/shree0731 | LinkedIn: li
                     padding: '0.75rem 1.5rem',
                     fontWeight: 700,
                     fontSize: '0.9rem',
-                    cursor: 'pointer',
+                    cursor: 'pointer', userSelect: 'none',
                     display: 'inline-flex',
                     alignItems: 'center',
                     gap: '0.5rem',
