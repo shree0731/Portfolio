@@ -1,3 +1,7 @@
+/**
+ * @file Contact.tsx
+ * @description Contact channels with one-click copy and interactive dispatch form.
+ */
 import React, { useState } from 'react';
 import { Mail, Linkedin, Github, MapPin, Send, Check, Copy, Sparkles, MessageSquare } from 'lucide-react';
 
