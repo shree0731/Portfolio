@@ -337,7 +337,7 @@ const Contact: React.FC = () => {
                   Your Email *
                 </label>
                 <input
-                  type="email"
+                  type="email" autoComplete="email" spellCheck="false"
                   required
                   placeholder="e.g. alex@example.com"
                   value={formData.email}
