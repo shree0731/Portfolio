@@ -401,7 +401,7 @@ const Contact: React.FC = () => {
                 >
                   Your Message *
                 </label>
-                <textarea
+                <textarea spellCheck="true"
                   required
                   rows={4}
                   placeholder="Write your note, question, or project idea here..."
