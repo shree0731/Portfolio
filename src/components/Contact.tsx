@@ -318,7 +318,7 @@ const Contact: React.FC = () => {
                     color: '#FAF5ED',
                     fontSize: '0.9rem',
                     fontFamily: 'var(--font-sans)',
-                    outline: 'none',
+                    outline: 'none', transition: 'border-color 0.2s ease',
                   }}
                 />
               </div>
