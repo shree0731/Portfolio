@@ -257,7 +257,7 @@ const Contact: React.FC = () => {
                       gap: '0.35rem',
                       transition: 'all 0.2s',
                     }}
-                    title="Copy to clipboard"
+                    title="Click to copy to clipboard" aria-label="Copy to clipboard"
                   >
                     {isCopied ? <Check size={14} /> : <Copy size={14} />}
                     <span>{isCopied ? 'Copied' : 'Copy'}</span>
