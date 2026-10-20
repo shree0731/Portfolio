@@ -1,3 +1,7 @@
+/**
+ * @file Footer.tsx
+ * @description Editorial dark footer with branding, social links, and smooth back-to-top trigger.
+ */
 import React from 'react';
 import { ArrowUp, Github, Linkedin, Mail, Sparkles, Shield, Heart } from 'lucide-react';
 
