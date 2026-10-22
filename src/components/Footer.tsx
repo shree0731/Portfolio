@@ -105,7 +105,7 @@ const Footer: React.FC = () => {
           <div style={{ display: 'flex', gap: '1rem' }}>
             <a
               href="https://github.com/shree0731"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer" rel="noopener noreferrer"
               rel="noopener noreferrer"
               style={{
                 width: '42px',
