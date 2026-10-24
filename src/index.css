@@ -496,3 +496,8 @@ body {
   to { transform: translateY(0); opacity: 1; }
 }
 
+
+/* Hardware acceleration hints */
+.btn-gold, .btn-pill-action, .stat-card, .editorial-card {
+  will-change: transform;
+}
