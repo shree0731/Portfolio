@@ -2,6 +2,28 @@
 
 A bespoke, editorial retro-modern portfolio crafted with React, TypeScript, and modern styling. Designed with a luxury editorial aesthetic featuring deep forest green, warm cream, golden amber accents, layered typography, and interactive engineering showcases.
 
+## 🏛️ Architecture Overview
+
+```
+src/
+├── components/          # Modular editorial UI components
+│   ├── Hero.tsx         # Forest green headline with wireframe repeats
+│   ├── About.tsx        # Bio story, stat grid, arch frame & contact box
+│   ├── Education.tsx    # Academic timeline with diamond starburst nodes
+│   ├── Experience.tsx   # Mustard amber highlight card with sticker tags
+│   ├── Skills.tsx       # Filterable stack explorer & illustrated hobbies
+│   ├── Projects.tsx     # Selected projects & Blueprint detail modals
+│   ├── Hackathons.tsx   # Competitions & trophy achievements
+│   ├── Resume.tsx       # Certificate credential card with PDF download
+│   ├── Contact.tsx      # Interactive dispatch form & copy channels
+│   └── Footer.tsx       # Retro branding & back-to-top scroll
+├── pages/
+│   ├── Index.tsx        # Main landing page orchestration
+│   └── NotFound.tsx     # Custom 404 handler
+└── lib/
+    └── utils.ts         # ClassNames & formatting utilities
+```
+
 ## 🌟 Highlights & Architecture
 
 - **Editorial Aesthetic:** Distinctive color palette (`#1C3D2B`, `#FAF5ED`, `#F4A21F`, `#D4633B`, `#151816`) inspired by high-fashion magazine art direction.
