@@ -1,3 +1,41 @@
-# Shreepurnaa Portfolio
+# Shreepurnaa V | Portfolio ✦
 
-Personal portfolio repository under active development.
+A bespoke, editorial retro-modern portfolio crafted with React, TypeScript, and modern styling. Designed with a luxury editorial aesthetic featuring deep forest green, warm cream, golden amber accents, layered typography, and interactive engineering showcases.
+
+## 🌟 Highlights & Architecture
+
+- **Editorial Aesthetic:** Distinctive color palette (`#1C3D2B`, `#FAF5ED`, `#F4A21F`, `#D4633B`, `#151816`) inspired by high-fashion magazine art direction.
+- **Layered Wireframe Typography:** Multi-layered stroked hollow watermarks (`PORTFOLIO`, `RESUME`, `PROJECTS`).
+- **Interactive Blueprints Modal:** Deep-dive modal architecture viewer for engineering projects.
+- **Dynamic Skill Explorer:** Filterable skill categories (AI & Vision, Cybersecurity, Web & Web3, Tools & Databases).
+- **Academic & Experience Highlights:** Timeline for B.E. Computer Science Engineering (Easwari Engineering College) and hackathon achievements.
+- **Direct Contact & Mailto Flow:** Interactive message dispatch with instant clipboard copy shortcuts.
+
+## 🚀 Tech Stack
+
+- **Framework:** React 18, TypeScript, Vite
+- **Icons:** Lucide React
+- **Typography:** DM Serif Display, Fraunces, Plus Jakarta Sans, Space Grotesk
+- **State & Data Management:** TanStack Query, React Router DOM
+
+## 🛠️ Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/shree0731/Portfolio.git
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## 📬 Contact
+
+- **Email:** kvgeethashree12@gmail.com
+- **GitHub:** [@shree0731](https://github.com/shree0731)
+- **LinkedIn:** [shreepurnaa](https://linkedin.com/in/shreepurnaa)
