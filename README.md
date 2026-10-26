@@ -1,5 +1,10 @@
 # Shreepurnaa V | Portfolio ✦
 
+![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.6.0-3178C6?logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5.4.21-646CFF?logo=vite&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 A bespoke, editorial retro-modern portfolio crafted with React, TypeScript, and modern styling. Designed with a luxury editorial aesthetic featuring deep forest green, warm cream, golden amber accents, layered typography, and interactive engineering showcases.
 
 ## 🏛️ Architecture Overview
